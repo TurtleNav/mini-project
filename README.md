@@ -45,7 +45,7 @@ Work in your group to implement the following user stories:
 ## Sample Page
 * The following screenshot is provided as an **example** of what you can do, but be creative! As long as you complete all of the acceptance criterions, any landing page is acceptable. 
 
-* Note: The **Coming Soon box** is an image that is provided in the `assets/image-1.png` directory. 
+* Note: The **Coming Soon box** is an image that is provided in the `assets/images/image-1.png` directory. 
 
 ![The landing page contains a header, footer, a main section page with an image provided to display in the middle of the screen. Some text and a Contact Me form is also included.](./assets/sample-page.png)
 
