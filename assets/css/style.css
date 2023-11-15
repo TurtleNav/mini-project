@@ -1,5 +1,7 @@
 /* Universal Selector */
 * {
+  box-sizing: border-box;
+
   font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
 }
 
@@ -16,18 +18,35 @@ footer p {
 	height: 50px;
 }
 
-
-nav a {
-	color: white;
+header nav ul li {
+	display: inline;
 	position: relative;
 }
+
+header {
+	position: relative;
+	padding: 40px;
+}
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+
+/* Set links to white */
+a {
+	color: white;
+}
+
 
 /* Class Selector */
 .horizontal-green-bar {
 	background-color: teal;
-	padding: 5px;
 	height: 50px;
-	text-align: right;
+	/*text-align: right;*/
 }
 
 /* Id Selectors */
