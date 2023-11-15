@@ -1,4 +1,39 @@
-#Image-Section {
-	text-align: center;
-
+/* Universal Selector */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
 }
+
+/* Element Selector(s) */
+
+section {
+	text-align: center;
+}
+
+footer p {
+	font-weight: bold;
+	text-align: center;
+	background-color: teal;
+	height: 50px;
+}
+
+
+nav a {
+	color: white;
+	position: relative;
+}
+
+/* Class Selector */
+.horizontal-green-bar {
+	background-color: teal;
+	padding: 5px;
+	height: 50px;
+	text-align: right;
+}
+
+/* Id Selectors */
+#link-group {
+	position: right;
+	color: white;
+}
+
+
